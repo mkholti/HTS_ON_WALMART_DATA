@@ -5,8 +5,10 @@ import pandas as pd
 def load_data(f):
     return joblib.load(f)
 
+
 def load_mape_dict(f):
     return joblib.load(f)
+
 
 # @st.cache
 def load_prepared_data():
